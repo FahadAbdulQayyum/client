@@ -1,4 +1,49 @@
-.App {
+form{
+  margin: 0 50px;
+}
+
+.left{
+  background-color: royalblue;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  margin: 2px 0;
+}
+
+.right{
+  background-color: orange;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  margin: 2px 0;
+}
+
+.float {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  border: 1px solid palegreen;
+  background-color: rgba(255, 255, 255, .1);
+  box-shadow: 1px 5px 10px 2px lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+.floa {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +80,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
